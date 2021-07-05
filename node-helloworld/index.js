@@ -13,5 +13,5 @@ app.get('/', (req,res)=>{
     res.send('✅  HELLO EXPRESS 🚀')
 })
 
-let PORT =process.env.PORT || 3001
+let PORT =process.env.PORT || 8080
 app.listen(PORT, ()=> console.log(`🧪 listening on port: ${PORT}`))
