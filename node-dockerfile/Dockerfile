@@ -1,4 +1,4 @@
-FROM node:14.4.0-stretch
+FROM openshift/nodejs:14-ubi7
 
 WORKDIR /usr/src/app
 
