@@ -1,8 +1,8 @@
-FROM openshift/nodejs:14-ubi7
+FROM node:14.4.0-stretch
 
 WORKDIR /usr/src/app
 
-COPY package.json yarn.lock /usr/src/app/
+COPY package.json /usr/src/app/
 
 RUN yarn install
 
