@@ -1,10 +1,4 @@
 ## Example 1. Create new-app from one git
-
-    git add .
-    git commit -m "Commit Descripcion"
-    git tag -a "v1.0.0" -m "Tag descripcion"
-    git push --follow-tags
-
 ### VARIABLES:
     export OC_GIT=https://github.com/cannavit/openshift-test-nodejs.git
     export OC_BRANCH=master

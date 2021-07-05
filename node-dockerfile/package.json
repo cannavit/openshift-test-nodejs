@@ -1,0 +1,33 @@
+{
+  "name": "openshift-test-nodejs",
+  "version": "0.0.0",
+  "description": "Example how deploy one simple applications using openshift",
+  "main": "index.js",
+  "scripts": {
+    "test": "start",
+    "start": "node index.js"	
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cannavit/openshift-test-nodejs.git"
+  },
+  "keywords": [
+    "test",
+    "openshift",
+    "nodejs",
+    "deploy",
+    "git"
+  ],
+  "author": "Cecilio Cannavacciuolo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cannavit/openshift-test-nodejs/issues"
+  },
+  "homepage": "https://github.com/cannavit/openshift-test-nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
