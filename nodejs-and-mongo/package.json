@@ -4,8 +4,7 @@
   "description": "Example how deploy one simple applications using openshift",
   "main": "index.js",
   "scripts": {
-    "test": "start",
-    "start": "node index.js"
+    "start": "node ./index.js"
   },
   "repository": {
     "type": "git",
